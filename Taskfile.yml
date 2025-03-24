@@ -72,3 +72,9 @@ tasks:
   dep-notp:
     desc: get notp dependency
     cmd: 'go get -u github.com/permguard/permguard-notp-protocol@{{.CLI_ARGS}}'
+  dep-ztas:
+    desc: get abstraction languange dependency
+    cmd: 'go get -u github.com/permguard/permguard-ztauthstar@{{.CLI_ARGS}}'
+  dep-ztas-ledger:
+    desc: get objstorage dependency
+    cmd: 'go get -u github.com/permguard/permguard-ztauthstar-ledger@{{.CLI_ARGS}}'
