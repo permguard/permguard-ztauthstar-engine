@@ -16,7 +16,7 @@ clean:
 	rm -f result.json
 
 init-dependency:
-	go get -u github.com/permguard/permguard-core
+	go get -u github.com/permguard/permguard-common
 	go get -u github.com/stretchr/testify
 
 mod:

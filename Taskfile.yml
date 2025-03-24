@@ -66,9 +66,9 @@ tasks:
     cmds:
       - make protoc
   # Depedencies
-  dep-core:
+  dep-common:
     desc: get core dependency
-    cmd: 'go get -u github.com/permguard/permguard-core@{{.CLI_ARGS}}'
+    cmd: 'go get -u github.com/permguard/permguard-common@{{.CLI_ARGS}}'
   dep-notp:
     desc: get notp dependency
     cmd: 'go get -u github.com/permguard/permguard-notp-protocol@{{.CLI_ARGS}}'
